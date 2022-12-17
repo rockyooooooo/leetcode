@@ -5,20 +5,26 @@ Given the `root` of a binary tree, invert the tree, and return _its root_.
 
 ![](https://assets.leetcode.com/uploads/2021/03/14/invert1-tree.jpg)
 
+```
 **Input:** root = [4,2,7,1,3,6,9]
 **Output:** [4,7,2,9,6,3,1]
+```
 
 **Example 2:**
 
 ![](https://assets.leetcode.com/uploads/2021/03/14/invert2-tree.jpg)
 
+```
 **Input:** root = [2,1,3]
 **Output:** [2,3,1]
+```
 
 **Example 3:**
 
+```
 **Input:** root = []
 **Output:** []
+```
 
 **Constraints:**
 
@@ -27,6 +33,7 @@ Given the `root` of a binary tree, invert the tree, and return _its root_.
 
 ---
 ## 題目意思
+
 把一個 Binary tree 顛倒，很好理解，但是我沒有把 input 搞懂。
 我一直以為 input 跟 output 會是一個 array，因為 example 就是寫成 array 的樣子。
 但是其實 code 那邊註解有寫：
@@ -49,6 +56,7 @@ Given the `root` of a binary tree, invert the tree, and return _its root_.
 但是我沒有看懂，所以就直接用 array 來解題。
 
 ## 解題方向
+
 看起來就是 tree 的每一個 tier 顛倒就好了，所以只要把每一個 tier 該做就事做好就好。
 1. 先算出有幾個 tier
 2. 每個 tier 的第一個 node 跟最後一個 node 對調，第二個 node 跟倒數第二個 node 對調，依此類推

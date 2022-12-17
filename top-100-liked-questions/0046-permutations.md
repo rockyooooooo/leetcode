@@ -3,18 +3,24 @@ Given an array `nums` of distinct integers, return _all the possible permutat
 
 **Example 1:**
 
+```
 **Input:** nums = [1,2,3]
 **Output:** [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+```
 
 **Example 2:**
 
+```
 **Input:** nums = [0,1]
 **Output:** [[0,1],[1,0]]
+```
 
 **Example 3:**
 
+```
 **Input:** nums = [1]
 **Output:** [[1]]
+```
 
 **Constraints:**
 
@@ -25,10 +31,12 @@ Given an array `nums` of distinct integers, return _all the possible permutat
 ---
 
 ## 題目意思
+
 給一個 array of number，數字不會重複，回傳所有可能的排序。
 想了一陣子想不出來怎麼解，於是偷看別人的解題方向，但沒有直接看 code。
 
 ## 解題方向
+
 選一個數，剩下的數丟進去遞迴再解一樣的問題，於是第一次寫出了這樣的 code：
 
 ```javascript nums
