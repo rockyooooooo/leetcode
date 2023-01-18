@@ -1,4 +1,4 @@
-#leetcode #easy 
+#leetcode #easy #binarytree 
 Given the `root` of a binary tree, return _the inorder traversal of its nodes' values_.
 
 **Example 1:**
