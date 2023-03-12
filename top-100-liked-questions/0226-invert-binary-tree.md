@@ -1,4 +1,7 @@
+# [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+
 #leetcode #easy #binarytree
+
 Given the `root` of a binary tree, invert the tree, and return _its root_.
 
 **Example 1:**

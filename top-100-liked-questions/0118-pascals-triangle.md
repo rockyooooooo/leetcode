@@ -1,3 +1,5 @@
+# [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+
 #leetcode #easy 
 
 Given an integer `numRows`, return the first numRows of **Pascal's triangle**.

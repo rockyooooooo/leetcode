@@ -1,3 +1,5 @@
+# [136. Single Number](https://leetcode.com/problems/single-number/)
+
 #leetcode #easy 
 
 Given a **non-empty** array of integers `nums`, every element appears _twice_ except for one. Find that single one.

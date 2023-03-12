@@ -1,4 +1,7 @@
+# [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+
 #leetcode #medium 
+
 Given `n` pairs of parentheses, write a function to _generate all combinations of well-formed parentheses_.
 
 **Example 1:**

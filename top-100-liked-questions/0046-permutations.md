@@ -1,4 +1,7 @@
+# [46. Permutations](https://leetcode.com/problems/permutations/)
+
 #leetcode #medium 
+
 Given an array `nums` of distinct integers, return _all the possible permutations_. You can return the answer in **any order**.
 
 **Example 1:**

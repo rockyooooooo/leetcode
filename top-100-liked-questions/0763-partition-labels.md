@@ -1,4 +1,7 @@
+# [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
+
 #leetcode #medium
+
 You are given a string `s`. We want to partition the string into as many parts as possible so that each letter appears in at most one part.
 
 Note that the partition is done so that after concatenating all the parts in order, the resultant string should be `s`.
