@@ -1,8 +1,6 @@
 # [300\. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 
-Given an integer array `nums`, return *the length of the longest **strictly increasing***
-
-***subsequence***.
+Given an integer array `nums`, return *the length of the longest **strictly increasing subsequence***.
 
 
 
